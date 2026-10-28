@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.header-links {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 200px;
+    align-items: center;
+}
+
+li {
+    padding-left: 20px;
+}
