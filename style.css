@@ -52,11 +52,18 @@ li {
 
 .press {
     display: flex;
-    padding: 6px;
-    margin-top: 12px;
+    align-self: flex-start;
     justify-content: center;
-    width: 100px;
+    color: #F9FAF8;
+    background-color: rgb(59, 130, 246);
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+    padding: 10px 13px 10px 13px;
+    width: 160px;
     cursor: pointer;
+    font-size: 18px;
+    font-weight: 900;
 }
 
 .container-image {
@@ -102,13 +109,6 @@ li {
 .intro-main {
     color: #E5E7EB;
     font-size: 18px;
-}
-
-.press {
-    color: #F9FAF8;
-    background-color: rgb(59, 130, 246);
-    border-radius: 5px;
-    border: none;
 }
 
 .main {
@@ -186,18 +186,20 @@ li {
     display: flex;
     flex-direction: column;
     padding: 150px;
+    width: 800px;
+    align-self: center;
 }
 
 .sign-1 {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 15px;
 }
 
 .pop-up {
     display: flex;
     background-color: rgb(59, 130, 246);
-    padding: 50px;
+    padding: 30px 50px 30px 50px;
     border-radius: 10px;
     color: #E5E7EB;
     justify-content: space-between;
@@ -206,8 +208,8 @@ li {
 .press-1 {
     display: flex;
     align-self: center;
-    padding: 20px;
-    width: 170px;
+    padding: 10px 13px 10px 13px;
+    width: 160px;
     justify-content: center;
     background-color:  rgb(59, 130, 246);
     border: 1px solid #E5E7EB;
@@ -220,7 +222,7 @@ li {
 }
 
 .sign-title {
-    font-size: 36px;
+    font-size: 25px;
     font-weight: 900;
 }
 
